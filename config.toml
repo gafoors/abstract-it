@@ -1,3 +1,15 @@
-baseurl = "http://www.abstract-it.uk/"
-languageCode = "en-us"
+baseurl = "https://www.abstract-it.uk/"
+languageCode = "en-uk"
 title = "My online shed"
+
+# include content marked as draft
+buildDrafts = true
+
+# theme to use (located by default in /themes/THEMENAME/)
+themesdir = "themes"
+theme = "paperback"
+
+
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+canonifyURLs = true
