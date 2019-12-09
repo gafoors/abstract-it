@@ -1,3 +1,3 @@
 # How to run the website locally
-$ hugo server --theme=hyde-y --buildDrafts
+$ hugo server --theme=paperback --buildDrafts
 
