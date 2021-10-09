@@ -1,15 +1,44 @@
 baseurl = "https://www.abstract-it.uk/"
 languageCode = "en-uk"
 title = "My online shed"
+AuthorName = "Shameem Gafoor"
+Tagline = "Writing software is the easy part"
+TwitterUsername = "that_shameem" 
+LinkedInUsername = "shameem-gafoor" 
 
 # include content marked as draft
 buildDrafts = true
 
 # theme to use (located by default in /themes/THEMENAME/)
 themesdir = "themes"
-theme = "paperback"
+
+# theme = "paperback"
+theme = "ananke"
 
 
 # enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
 relativeURLs = true
 canonifyURLs = true
+
+
+[params]
+  author = "Shameem Gafoor"
+  favicon = ""
+  site_logo = ""
+  description = "Writing software is the easy part."
+  facebook = ""
+  twitter = "https://twitter.com/that_shameem"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/shameem-gafoor"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-gray"
+  # featured_image = "images/gohugo-default-sample-hero-image.jpg"
+  featured_image = "/images/bg/3d_abstract_flower_4k-3840x2160.jpg"
+  recent_posts_number = 2
