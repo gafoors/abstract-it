@@ -30,6 +30,6 @@ jobs:
           publish_dir: ./public
           #   keep_files: true
           user_name: gafoors
-          user_email: ''
+          user_email: 'gafoors@live.co.uk'
           publish_branch: master
           cname: 'www.abstract-it.uk'
